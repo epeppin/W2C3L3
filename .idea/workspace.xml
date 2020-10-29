@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b225e04-2413-4be2-847d-ab5ca66d1ccd" name="Default Changelist" comment="" />
+    <list default="true" id="6b225e04-2413-4be2-847d-ab5ca66d1ccd" name="Default Changelist" comment="Pizza Cost Calc">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jRKcRu1ryg6e2T8BjOnAYZyBTB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../W2CL3L2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,21 +43,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603761542837</updated>
-      <workItem from="1603761543885" duration="1404000" />
+      <workItem from="1603761543885" duration="1969000" />
+      <workItem from="1603935842384" duration="812000" />
     </task>
+    <task id="LOCAL-00001" summary="Pizza Cost Calc">
+      <created>1603762981886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603762981886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pizza Cost Calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pizza Cost Calc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1220" y="338" key="FileChooserDialogImpl" timestamp="1603762685576">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1220" y="338" key="FileChooserDialogImpl/-896.1200.1920.1040/-1920.-2.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603762685576" />
+    <state x="1318" y="481" key="Github.ShareDialog" timestamp="1603762960420">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1318" y="481" key="Github.ShareDialog/-896.1200.1920.1040/-1920.-2.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603762960420" />
+    <state x="1224" y="288" key="Github.UntrackedFilesDialog" timestamp="1603762967039">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1224" y="288" key="Github.UntrackedFilesDialog/-896.1200.1920.1040/-1920.-2.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603762967039" />
+    <state x="1032" y="316" key="Vcs.Push.Dialog.v2" timestamp="1603762986493">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1032" y="316" key="Vcs.Push.Dialog.v2/-896.1200.1920.1040/-1920.-2.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603762986493" />
     <state x="1053" y="100" width="774" height="967" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603762655707">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="1053" y="100" width="774" height="967" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-896.1200.1920.1040/-1920.-2.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1603762655707" />
+    <state x="-1297" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1603936227654">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1297" y="255" width="672" height="678" key="search.everywhere.popup/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1603936227654" />
   </component>
 </project>

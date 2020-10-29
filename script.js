@@ -1,30 +1,33 @@
-//store base pizza cost
-var basePizza = 15
-//store topping price
-var priceTopping = 1.25
+$(document).ready(
+    function () {
+        //store base pizza cost
+        var basePizza = 15
+        //store topping price
+        var priceTopping = 1.25
 
-function costPerson() {
-    //Get number of people
-    var numPeople = prompt("How many People")
+        //add event handler
+        $("#calcButton").click(calcCost)
 
-    // Convert to number data type (no decimals)
-    numPeople = parseInt(numPeople)
+        function calcCost() {
+            //Get number of people and parse to Number
+            var numPeople = parseInt($("#numPeople").val())
 
-    //Get Number of toppings
-    var numToppings = prompt("How many Toppings")
+            //Get Number of toppings and parse to Number
+            var numToppings = parseInt($("#numToppings").val())
 
-    // Convert to number data type (no decimals)
-    numToppings = parseInt(numToppings)
+            //Multiply number of toppings by topping cost
+            var totalToppingCost = priceTopping * numToppings
 
-    //Multiply number of toppings by topping cost
-    var totalToppingCost = priceTopping * numToppings
+            // add total topping cost to base pizza price
+            var totalPizzaCost = totalToppingCost + basePizza
 
-    // add total topping cost to base pizza price
-    var totalPizzaCost = totalToppingCost + basePizza
+            // Divide total cost by number of people
+            var totalPerPerson = totalPizzaCost / numPeople
 
-    // Divide total cost by number of people
-    var totalPerPerson = totalPizzaCost / numPeople
+            //Display Total Late Fee in Dollars on page
+            $("#totalOutput").text(totalPerPerson.toFixed(2))
 
-    //Display cost per person in Dollars
-    alert(`Total Cost Per Person $${totalPerPerson.toFixed(2)}`)
-}
+            $(".display").show()
+        }
+    }
+)
